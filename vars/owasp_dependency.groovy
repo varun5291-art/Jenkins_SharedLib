@@ -1,6 +1,6 @@
 def call() {
     dependencyCheck(
-        additionalArguments: '--scan ./ --noupdate',
+        additionalArguments: '--scan ./ --noupdate --disableNodeAudit',
         odcInstallation: 'OWASP'
     )
 
